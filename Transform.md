@@ -12,6 +12,7 @@ We have uploaded data to sql server and will transform data there.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Data Check](img/data_load.PNG)
 
 
+
 > 2.  **Check for Table Schema**
 ``` SQL
     SELECT COLUMN_NAME, DATA_TYPE
@@ -22,6 +23,7 @@ We have uploaded data to sql server and will transform data there.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Schema](img/schema.PNG)
+
 
 
 > 3. **Check for Duplicates**
@@ -35,6 +37,7 @@ We have uploaded data to sql server and will transform data there.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Duplicate](img/duplicates.PNG)
+
 
 
 > 4. **Remove Duplicates**
@@ -54,6 +57,7 @@ We have uploaded data to sql server and will transform data there.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Duplicate](img/drs.PNG)
 
 
+
 > 5. **Count unique Startups**
 ```SQL
     SELECT COUNT(DISTINCT name) AS unique_count
@@ -63,6 +67,7 @@ We have uploaded data to sql server and will transform data there.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![unique](img/unique_1.PNG)
+
 
 
 > 6. **Basic Statistics**
@@ -80,6 +85,7 @@ We have uploaded data to sql server and will transform data there.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Statistics](img/stat_1.PNG)
 
 
+
 > 7. **Top 10 Average Funding Amounts Across Startups**
 ``` SQL
     SELECT TOP 10
@@ -93,6 +99,7 @@ We have uploaded data to sql server and will transform data there.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Top 10](img/top.PNG)
+
 
 
 > 8. **Distribution of funding amounts by range**
@@ -120,6 +127,7 @@ We have uploaded data to sql server and will transform data there.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Distribution](img/distribution_1.PNG)
 
 
+
 > 9. **Count of startups by category**
 ```SQL
     SELECT Top 10
@@ -132,6 +140,7 @@ We have uploaded data to sql server and will transform data there.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Startup Count](img/countcc.PNG)
+
 
 
 #### Feature Engineering
@@ -149,6 +158,7 @@ We have uploaded data to sql server and will transform data there.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Funding Amount](img/per.PNG)
 
 
+
 > 2.  **Time between funding rounds**
 ```SQL
     SELECT TOP 10
@@ -161,6 +171,7 @@ We have uploaded data to sql server and will transform data there.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Time between funding](img/time_bw.PNG)
+
 
 
 > 3. **Count of startups by status for each country**
