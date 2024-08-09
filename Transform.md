@@ -6,6 +6,7 @@ We have uploaded data to sql server and will transform data there.
 ``` SQL
     Select * from startup_stage;
 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Structure](img/data_load.png)
