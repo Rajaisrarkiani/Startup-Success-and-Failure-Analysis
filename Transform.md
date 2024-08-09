@@ -9,7 +9,7 @@ We have uploaded data to sql server and will transform data there.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Data Check](https://github.com/Rajaisrarkiani/Startup-Success-and-Failure-Analysis/raw/main/img/data_load.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Data Check](img/data_load.PNG)
 
 
 > 2.  **Check for Table Schema**
@@ -21,7 +21,7 @@ We have uploaded data to sql server and will transform data there.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Schema](img/schema.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Schema](img/schema.PNG)
 
 
 > 3. **Check for Duplicates**
