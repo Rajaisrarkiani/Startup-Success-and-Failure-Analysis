@@ -2,6 +2,8 @@
 
 ## Overview
 This project explores the factors influencing the success and failure of startups by analyzing relevant datasets. The analysis is performed using SQL Server, following the ELT (Extract, Load, Transform) approach. The data was sourced from Kaggle and loaded into SQL Server for detailed analysis.
+
+##Architecture Diagram
 <div align="center">
   <img src="img/elt_1.png" alt="ELT Pipeline Diagram" style="max-width: 100%; height: auto;">
 </div>
